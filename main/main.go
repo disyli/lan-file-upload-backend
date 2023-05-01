@@ -14,7 +14,7 @@ func upldFiles(c *gin.Context) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	// 获取表单
+	// 获取表单1
 	form := c.Request.MultipartForm
 	//log.Println(*form)
 	// 获取参数upload后面的多个文件名，存放到数组files里面，
